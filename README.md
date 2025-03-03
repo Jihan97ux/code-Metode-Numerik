@@ -1,6 +1,6 @@
 # 📊 Comparison of Domestic Tourist Predictions in Denpasar Using Holt-Winters and SARIMA Methods  
 
-## 👥 Authors  
+## 👥 Author  
 **Jihan Fadila**  
 📧 Email: jihan4han97@gmail.com
 
