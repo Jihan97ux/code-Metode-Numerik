@@ -34,22 +34,16 @@ By analyzing historical tourist arrival data, we aim to determine the **most acc
 
 **Holt-Winters Equations:**  
 - **Level Update:**  
-  \[
-  L_t = \alpha (Y_t - S_{t-m}) + (1-\alpha)(L_{t-1} + T_{t-1})
-  \]
+  Lt=α(Yt​−St−m​)+(1−α)(Lt−1​+Tt−1​)
 - **Trend Update:**  
-  \[
-  T_t = \beta (L_t - L_{t-1}) + (1-\beta) T_{t-1}
-  \]
+  Tt=β(Lt​−Lt−1​)+(1−β)Tt−1
 - **Seasonal Component:**  
-  \[
-  S_t = \gamma (Y_t - L_t) + (1-\gamma) S_{t-m}
-  \]
-
+  St=γ(Yt​−Lt​)+(1−γ)St−m​
+  
 where **α, β, γ** are smoothing parameters and **m** is the seasonal period.  
 
 #### **SARIMA (Seasonal ARIMA)**  
-- A **statistical model** that accounts for **seasonality and autocorrelation** in time-series data.  
+- A **statistical model** that accounts for **seasonality and autocorrelation** in time-series data.
 - SARIMA model is defined as **SARIMA(p, d, q) × (P, D, Q)m**, where:  
   - **p, d, q** = ARIMA parameters  
   - **P, D, Q** = Seasonal components  
