@@ -34,11 +34,11 @@ By analyzing historical tourist arrival data, we aim to determine the **most acc
 
 **Holt-Winters Equations:**  
 - **Level Update:**  
-  Lt=α(Yt​−St−m​)+(1−α)(Lt−1​+Tt−1​)
+  **Lt=α(Yt​−St−m​)+(1−α)(Lt−1​+Tt−1​)**
 - **Trend Update:**  
-  Tt=β(Lt​−Lt−1​)+(1−β)Tt−1
+  **Tt=β(Lt​−Lt−1​)+(1−β)Tt−1**
 - **Seasonal Component:**  
-  St=γ(Yt​−Lt​)+(1−γ)St−m​
+  **St=γ(Yt​−Lt​)+(1−γ)St−m​**
   
 where **α, β, γ** are smoothing parameters and **m** is the seasonal period.  
 
